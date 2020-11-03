@@ -9,11 +9,13 @@
  $ git clone https://github.com/c02adaniel/linux_backup.git
  $ sudo linux_backup/install.sh
  ```
-3. A telepítőben meg kell adni annak a külső meghajtón lévő könyvtárnak az elérési útját ahova a biztonsági mentés kerül.
+3. A telepítőben meg kell adni
+* annak a külső meghajtón lévő könyvtárnak az elérési útját, ahova a biztonsági mentés kerül.
 __Az elérési útvonal végére nem kell perjel!__ Például: _/media/usbshare01/backup_
+* annak az eszköznek a nevét, amiről készül a biztonsági mentés. Például: *sda*, *sda0*, *sdb*, stb. **Raspberry Pi-knél (Raspbian OS) a memóriakártya neve:** *mmcblk0*
 
  ### Biztonsági mentés
-A biztonsági mentéshez meg kell nyitni egy terminál ablakot, vagy ssh-t és a következő parancsot kell lefuttatni:<br>
+A biztonsági mentéshez meg kell nyitni egy terminál ablakot, vagy ssh-t és a következő parancsot kell lefuttatni:
 ```
 $ backup
 ```
@@ -22,4 +24,4 @@ A biztonsági mentéskor létrejön egy könyvtár az aktuális dátummal és az
 *$backupdir/[YYYY-MM-DD]/[HH-MM]/backup.img.gz*
 
 ### Megjegyzés
-Ez csak Debian alapú Raspbian-on, jelenlegi nevén Raspberry Pi OS-en lett kipróbálva.
+Ez csak Debian alapú *Raspbian*-on, jelenlegi nevén *Raspberry Pi OS*-en lett kipróbálva.
