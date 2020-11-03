@@ -16,6 +16,7 @@ echo
 echo -e "Kérlek add meg azt a helyet ahova a biztonsági másolatok készülni fognak!\nFONTOS: A végére nem kell perjel!\nPéldául: /media/data"
 read -p "Elérésiút: " utvonal
 echo $config_utvonal$utvonal >> $config_hely
+sudo touch $utvonal/backup.ready
 echo
 echo -e "Kérlek add meg, hogy miről készül biztonsági másolat!\nCsak az eszköz nevét! Például: sda, sda0, sdb, sdb0, stb.\n Raspberry Pi-knél (Raspbian OS) a memóriakártya neve: mmcblk0"
 read -p "Név: " mirol
