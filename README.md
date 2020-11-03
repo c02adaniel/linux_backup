@@ -7,6 +7,7 @@
  $ sudo apt full-upgrade -y
  $ sudo apt install gzip git -y
  $ git clone https://github.com/c02adaniel/linux_backup.git
+ $ chmod +x linux_backup/*.sh
  $ sudo linux_backup/install.sh
  ```
 3. A telepítőben meg kell adni
