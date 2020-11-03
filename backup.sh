@@ -1,7 +1,7 @@
 #!/bin/bash
 source /etc/backup/backup.conf
 link=$utvonal/backup.ready
-if [ ! -f $link ]; then
+if [ -f $link ]; then
 hely=$utvonal/`date +%Y-%m-%d`/`date +%H-%M`
 sudo mkdir -p $hely
 sudo echo `date` Biztonságimentés elkezdve... >>$hely/backup.log
