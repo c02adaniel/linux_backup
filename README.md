@@ -25,4 +25,10 @@ A biztonsági mentéskor létrejön egy könyvtár az aktuális dátummal és az
 *$backupdir/[YYYY-MM-DD]/[HH-MM]/backup.img.gz*
 
 ### Megjegyzés
-Ez csak Debian alapú *Raspbian*-on, jelenlegi nevén *Raspberry Pi OS*-en lett kipróbálva.
+* Ez csak Debian alapú *Raspbian*-on, jelenlegi nevén *Raspberry Pi OS*-en lett kipróbálva.
+* A telepítő még nem ellenőrzi, hogy 
+  * létezik-e a külső meghajtó és a könyvtár
+  * helyes-e az eszköz neve
+* A biztonsági mentést végző script még nem ellenőrzi, hogy 
+  * csatlakoztatva van-e a cél
+  * van-e elegendő szabad hely
