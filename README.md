@@ -1,6 +1,6 @@
 # linux_backup
 ### Telepítés:
-1. csatlakoztatni kell egy külső meghajtót, usb-t vagy hálózatit
+1. Csatlakoztatni kell egy külső meghajtót, usb-t vagy hálózatit
 2. Meg kell nyitni egy terminál ablakot, vagy ssh-t és a következő parancsokat kell lefuttatni
  ```
  $ sudo apt update
