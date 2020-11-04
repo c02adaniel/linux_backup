@@ -5,6 +5,7 @@ config_text2="source_dev="
 config_text3="bs_var="
 config_text4="status_var="
 config_text5="iflag_var="
+config_text6="other_var="
 install_loc=`dirname "$BASH_SOURCE"`
 sudo mkdir -p /etc/backup
 sudo cp ${install_loc}/backup.sh /etc/backup/
@@ -27,4 +28,5 @@ echo '${config_text2}$"{source_dev}"' >> ${config_location}
 echo '${config_text3}$"16M"' >> ${config_location}
 echo '${config_text4}$"progress"' >> ${config_location}
 echo '${config_text5}$"nofollow,noatime"' >> ${config_location}
+echo '${config_text6}$""' >> ${config_location}
 echo
