@@ -8,6 +8,8 @@ config_text5="iflag_var="
 config_text6="other_var="
 install_loc=`dirname "$BASH_SOURCE"`
 sudo mkdir -p /etc/backup
+sudo rm -f /etc/backup/backup.sh
+sudo rm -f /etc/backup/backup.conf
 sudo cp ${install_loc}/backup.sh /etc/backup/
 link=/bin/backup
 if [[ ! -f ${link} ]]; then
