@@ -1,7 +1,7 @@
 #!/bin/bash
 config_location="/etc/backup/backup.conf"
-config_text1="utvonal="
-config_text2="mirol="
+config_text1="location="
+config_text2="source_dev="
 install_loc=`dirname "$BASH_SOURCE"`
 sudo mkdir -p /etc/backup
 sudo cp ${install_loc}/backup.sh /etc/backup/
