@@ -6,7 +6,7 @@ install_loc=`dirname "$BASH_SOURCE"`
 sudo mkdir -p /etc/backup
 sudo cp ${install_loc}/backup.sh /etc/backup/
 link=/bin/backup
-if [ ! -f ${link} ]; then
+if [[ ! -f ${link} ]]; then
   #echo "=> File doesn't exist"
   sudo ln -s /etc/backup/backup.sh /bin/backup
 fi
