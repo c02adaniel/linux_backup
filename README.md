@@ -4,7 +4,6 @@
 2. Meg kell nyitni egy terminál ablakot, vagy ssh-t és a következő parancsokat kell lefuttatni
  ```
  $ sudo apt update
- $ sudo apt full-upgrade -y
  $ sudo apt install gzip git -y
  $ git clone https://github.com/c02adaniel/linux_backup.git
  $ chmod +x linux_backup/*.sh
