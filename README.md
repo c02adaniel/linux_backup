@@ -31,3 +31,4 @@ A biztonsági mentéskor létrejön egy könyvtár az aktuális dátummal és az
 * A biztonsági mentést végző script még nem ellenőrzi, hogy 
   * csatlakoztatva van-e a cél
   * van-e elegendő szabad hely
+* Log-olás fejlesztés alatt
