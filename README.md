@@ -28,7 +28,6 @@ A biztonsági mentéskor létrejön egy könyvtár az aktuális dátummal és az
 * A telepítő még nem ellenőrzi, hogy 
   * létezik-e a külső meghajtó és a könyvtár
   * helyes-e az eszköz neve
-* A biztonsági mentést végző script még nem ellenőrzi, hogy 
-  * csatlakoztatva van-e a cél
+* A biztonsági mentést végző script még nem ellenőrzi, hogy
   * van-e elegendő szabad hely
 * Log-olás fejlesztés alatt
