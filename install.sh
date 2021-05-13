@@ -8,7 +8,8 @@ config_text5="iflag_var="
 config_text6="other_var="
 install_loc=`dirname "$BASH_SOURCE"`
 sudo apt update
-#sudo apt install pv dialog -y
+sudo apt install pv gzip -y
+wget https://raw.githubusercontent.com/c02adaniel/linux_backup/main/backup.sh
 sudo mkdir -p /etc/backup
 sudo rm -f /etc/backup/backup.sh
 sudo rm -f /etc/backup/backup.conf
