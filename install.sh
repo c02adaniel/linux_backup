@@ -31,7 +31,7 @@ echo -e "Kérlek add meg, hogy miről készül biztonsági másolat!\nCsak az es
 read -p "Név: " source_dev
 echo ${config_text2}"${source_dev}" >> ${config_location}
 echo '# dd parameters - start' >> ${config_location}
-echo ${config_text3}$"16M" >> ${config_location}
+echo ${config_text3}$"4M" >> ${config_location}
 echo ${config_text4}$"progress" >> ${config_location}
 echo ${config_text5}$"nofollow,noatime" >> ${config_location}
 echo ${config_text6}$"" >> ${config_location}
